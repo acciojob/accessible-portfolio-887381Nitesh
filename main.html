@@ -10,29 +10,33 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<header>
-		<h1>My Accessible Portfolio</h1>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contacts">Contacts</a></li>
-				<li><a href="#projects">Projects</a></li>
-			</ul>
-		</nav>
-	</header>
-	<section id="about">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHmIFq1rpbZaEQtrhceSkG0kAlCU4PcUdh6CD-Ko1yXCrO42k8nebH6wJOg9w7D8EKjxU&usqp=CAU" alt="Profile picture of [Your Name]">
-            <p>Welcome to my portfolio! I am a passionate web developer focused on creating inclusive and accessible web experiences.</p>
-        </section>
-        
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>Accessible Web App</li>
-                <li>E-commerce Website</li>
-                <li >Personal Blog</li>
-            </ul>
-        </section>
-    </main>
+        <h1 role="heading">My Portfolio</h1>
+    </header>
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2 role="heading">About Me</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHmIFq1rpbZaEQtrhceSkG0kAlCU4PcUdh6CD-Ko1yXCrO42k8nebH6wJOg9w7D8EKjxU&usqp=CAU" alt="Profile" role="img">
+        <p>Hello! I'm a web developer focused on accessibility.</p>
+    </section>
+    <section id="projects">
+        <h2 role="heading">Projects</h2>
+        <ul role="list">
+            <li role="listitem">Blinkit Clone</li>
+            <li role="listitem">Profile Website</li>
+            <li role="listitem">Weather App</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2 role="heading">Contact</h2>
+        <p>Email: kumarnitesh597@gmail.com</p>
+    </section>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
